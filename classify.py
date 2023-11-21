@@ -48,7 +48,8 @@ class_names = {
         39: 'Keep left',
         40: 'Roundabout mandatory',
         41: 'End of no passing',
-        42: 'End of no passing by vehicles over 3.5 metric tons'}
+        42: 'End of no passing by vehicles over 3.5 metric tons'
+}
 
 def get_model():
         model = load_model('Model/Traffic_Sign_Classifier_CNN.hdf5')
