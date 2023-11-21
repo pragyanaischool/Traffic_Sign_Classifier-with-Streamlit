@@ -20,7 +20,7 @@ def predict(image):
         image = np.reshape(image,[1,32,32,1])
 
         #classes = loaded_model.predict_classes(image)
-        result = loaded_model.predict_classes(image)
+        result = loaded_model.predict(image)
         x=np.argmax(result,axis=1)
         #print (class_names[int(x)])
         classes = x
